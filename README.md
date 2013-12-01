@@ -23,7 +23,7 @@ Use this [http://alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/]
 
 ## Set proper screen resolution
 
-See [http://elinux.org/RPi_config.txt](http://elinux.org/RPi_config.txt) for reference
+See [http://weblogs.asp.net/bleroy/archive/2013/04/10/getting-your-raspberry-pi-to-output-the-right-resolution.aspx](http://weblogs.asp.net/bleroy/archive/2013/04/10/getting-your-raspberry-pi-to-output-the-right-resolution.aspx) for reference
 
 ```bash
 
