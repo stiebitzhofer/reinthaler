@@ -25,8 +25,10 @@ Use this [http://alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/]
 
 See [http://weblogs.asp.net/bleroy/archive/2013/04/10/getting-your-raspberry-pi-to-output-the-right-resolution.aspx](http://weblogs.asp.net/bleroy/archive/2013/04/10/getting-your-raspberry-pi-to-output-the-right-resolution.aspx) for reference
 
+For Liliput:
 ```bash
-
+hdmi_group=2
+hdmi_mode=16
 ```
 
 ## Screen should never blank out
@@ -96,3 +98,36 @@ See [http://minordiscoveries.wordpress.com/2013/03/30/backing-up-raspberry-pi-sd
 diskutil list
 sudo dd if=/dev/rdisk1 of=/path/to/backup.img bs=1m
 ```
+
+
+http://www.abelectronics.co.uk/products/3/Raspberry-Pi/15/RTC-Pi-Real-time-Clock-Module#
+https://www.sparkfun.com/products/99
+
+h
+
+http://www.sundh.com/blog/2013/10/loop-videos-seamlessly-omxplayer/
+
+
+
+Obsolete stuff:
+
+wget http://nodejs.org/dist/v0.10.21/node-v0.10.21-linux-arm-pi.tar.gz
+tar xvzf node-v0.10.2-linux-arm-pi.tar.gz
+sudo cp -r node-v0.10.2-linux-arm-pi/* /opt/node
+
+sudo nano /etc/profile
+
+...
+NODE_JS_HOME="/opt/node"
+PATH="$PATH:$NODE_JS_HOME/bin"
+export PATH
+...
+
+
+http://joshondesign.com/2013/10/23/noderpi
+
+
+sudo ln -s /opt/node/bin/node /usr/local/bin/node
+sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
+
+sudo -i npm install forever -g
