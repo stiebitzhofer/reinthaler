@@ -221,3 +221,6 @@ script
   export BUNDLE_GEMFILE="/home/pi/src/blink/Gemfile"
   exec bundle exec ruby /home/pi/src/blink/blinken.rb
 end script
+
+## Protect your Raspberry PI SD card, use Read-Only filesystem
+https://hallard.me/raspberry-pi-read-only/
