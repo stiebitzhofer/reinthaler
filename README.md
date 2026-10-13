@@ -16,8 +16,10 @@ Those files are historical reference material and are no longer the recommended
 installation procedure.
 
 The replacement is planned around a standard **mpv** package, with no
-project-maintained player fork. The modern controller and installation guide
-have not been implemented or validated yet.
+project-maintained player fork. The [installation guide](docs/installation.md)
+covers preparing the Zero W, video conversion, network time and manual playback
+tests. It is a draft awaiting hardware validation; the modern synchronisation
+controller and permanent startup service are not yet implemented.
 
 ## Planned setup
 
@@ -64,7 +66,8 @@ NTP synchronisation before the displayed time can be trusted.
 2. Verify mpv playback and hardware decoding on the Zero W.
 3. Implement configurable clock mapping, drift correction and restart handling.
 4. Test complete loops, power cuts, network loss and daylight-saving changes.
-5. Document the tested OS, packages, configuration and recovery procedure.
+5. Validate the [installation guide](docs/installation.md) and record the tested
+   OS, packages, configuration and recovery procedure.
 
 ## Archive
 
